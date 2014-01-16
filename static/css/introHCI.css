@@ -45,14 +45,12 @@ img .thumbnail {
 }
 
 .project {
-     margin-left: 20px;
-}
-p {
-     font-variant: small-caps;
-}
-#project1 {
-     background-color:#A9F8FF;
-     margin-left: 20px;
+     background-color:#FF005C;
+     margin: 10px;
      padding: 25px;
      width: 525px;
+     float:right;
+}
+div p {
+     font-variant: small-caps;
 }
