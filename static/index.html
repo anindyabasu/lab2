@@ -1,89 +1,69 @@
-<!doctype html>
+<!DOCTYPE html>
 
 <html>
 <head>
-	<title>HCI Project Portfolio</title>	
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-	<link href="css/bootstrap.min.css" rel="stylesheet">
-	<link href="css/bootstrap-theme.min.css" rel="stylesheet">
-	<link href="css/introHCI.css" rel="stylesheet">
-	
-	<!-- this is a comment in HTML -->
-
-    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
-      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-      <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
-    <![endif]-->        
+    <meta charset="utf-8">
+    <title>notePULL</title>
+    <meta name="COGS120" content="Sign Up">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="css/main.css">
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
+    <!-- Bootstrap Form Helpers -->
+    <link href="css/bootstrap-form-helpers.min.css" rel="stylesheet" media="screen">
+    <!-- Add Responsiveness -->
+    <link href="css/bootstrap-responsive.css" rel="stylesheet">
+    <!-- Social Media Buttons -->
+    <link href="css/social-buttons-3.css" rel="stylesheet">
+    <!-- Extra Icons -->
+    <link href="css/font-awesome.min.css" rel="stylesheet">
 </head>
 
-<body>
-	<div class="container">
-		<!-- h1 through h6 are headers. The higher the number, the smaller the header -->
-		<!-- p means paragraph -->
-		<div class="jumbotron">
-			<h1>Anindya Basu</h1>
-			<p>human-computer interaction &middot; social computing &middot; crowdsourcing</p>
-		</div>
+    <body class="login">
+        <div class="site-wrapper">
+            <div class="site-wrapper-inner">
+                <div class="cover-container">
+                <div class="masthead clearfix">
+                <div class="inner">
+                    <h3 class="masthead-brand"></h3>
+                    <!--<ul class="nav masthead-nav">
+                        <li class="active"><a href="#">Home</a></li>
+                        <li><a href="#">Features</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>-->
+                    </div>
+                </div>
 
+            <div class="inner cover">
+                <h1 class="cover-heading"></h1>
+                <img src="img/notepulllogo.png" />
+                <form class="form-signin" role="form">
+                    <h2 class="form-signin-heading" style="color:white;">Please sign in</h2>
+                    <input type="email" class="form-control" placeholder="Email address" required="" autofocus="">
+                    <input type="password" class="form-control" placeholder="Password" required="">
+                    <a href="home.html" class="btn btn-lg btn-primary btn-block" type="submit">Start taking notes!</a>
+                    <p style="color:white; font-size: large;"><br/>OR<br/></p>
+                    <button class="btn btn-facebook"><i class="fa fa-facebook"></i> | Connect with Facebook</button>
+                    <p style="color:white; font-size:large;"><br/>Don't have an account? <a href="signup.html">Sign Up</a>!</p>
+                </form>
+            </div>
 
-		<h4>Projects</h4>
-		<!-- divs are invisible structuring elements that stack vertically by default. Use them to organize your code -->
-		<!-- img tags are images. Lorem Pixel will deliver random images; handy! -->
-		<!-- a are anchors, also known as hyperlinks. Use the href attribute to tell the browser where to go when the user clicks -->
-		<div class="project" id="project1">
-			<a href="project.html" class="thumbnail">
-				<img src="images/lorempixel.people.1.jpeg" alt="Lorem Pixel image" class="img">
-				<p>Waiting in Line</p>
-			</a>
-		</div>
-		<div class="project" id="project2">
-			<a href="project.html" class="thumbnail">
-				<img src="images/lorempixel.city.1.jpeg" alt="Lorem Pixel image" class="img">
-				<p>Needfinding</p>
-			</a>
-		</div>
-		<div class="project" id="project3">
-			<a href="project.html" class="thumbnail">
-				<img src="images/lorempixel.technics.1.jpeg" alt="Lorem Pixel image" class="img">
-				<p>Prototyping</p>
-			</a>
-		</div>
-		<div class="project" id="project4">
-			<a href="project.html" class="thumbnail">
-				<img src="images/lorempixel.abstract.1.jpeg" alt="Lorem Pixel image" class="img">
-				<p>Heuristic Evaluation</p>
-			</a>
-		</div>
-		<div class="project" id="project5">
-			<a href="project.html" class="thumbnail">
-				<img src="images/lorempixel.abstract.8.jpeg" alt="Lorem Pixel image" class="img">
-				<p>Visualization</p>
-			</a>
-		</div>
-		<div class="project" id="project6">
-			<a href="project.html" class="thumbnail">
-				<img src="images/lorempixel.people.2.jpeg" alt="Lorem Pixel image" class="img">
-				<p>Social design</p>
-			</a>
-		</div>
-		<div class="project" id="project7">
-			<a href="project.html" class="thumbnail">
-				<img src="images/lorempixel.technics.2.jpeg" alt="Lorem Pixel image" class="img">
-				<p>Gestural interaction</p>
-			</a>
-		</div>
-		<div class="project" id="project8">
-			<a href="project.html" class="thumbnail">
-				<img src="images/lorempixel.city.2.jpeg" alt="Lorem Pixel image" class="img">
-				<p>Design tools</p>
-			</a>
-		</div>
-	</div>
-	<script src="https://code.jquery.com/jquery.js"></script>
-	<script src="js/bootstrap.min.js"></script>
-</body>
+            <div class="mastfoot">
+                <div class="inner">
+                    <p>Created by Anindya Basu, Helena Qin, Yalin Zhang using <a href="http://getbootstrap.com/">Bootstrap</a>.</p>
+                </div>
+            </div>
+
+            </div>
+        </div>
+        </div>
+        
+        <!-- Placed at the end of the document so the pages load faster -->
+        <script src="js/main.js"></script>
+        <script type="text/javascript" src="js/bootstrap.js"></script>
+        <script type="text/javascript" src=js/jquery-1.9.0.min.js></script>
+        <script type="text/javascript" src=js/jquery-1.10.1.min.js></script>
+        <script src="js/jquery-1.10.2.min.js"></script>
+    </body>
 </html>
